@@ -4,6 +4,7 @@ Decrypts a SMIME mail
 
 ## Usage
 usage: smime_decrypt.py [-h] -d DIRECTORY -p PASSWORD -f P12FILE -m MAILFILE
+
 smime_decrypt.py: error: the following arguments are required: -d/--directory, -p/--password, -f/--p12file, -m/--mailfile
 
 ```
