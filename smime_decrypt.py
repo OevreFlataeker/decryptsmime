@@ -94,7 +94,7 @@ parser.add_argument('-f', '--p12file', required=True, help='The P12 file with th
 parser.add_argument('-m', '--mailfile', required=True, help='The raw encrypted mail')
 args = parser.parse_args()
 
-print(f"Reading P12 file {args.p12file) with password")
+print(f"Reading P12 file {args.p12file} with password")
 pfx = get_pfx(args.p12file, args.password)
 print("Extracting private key")
 pkey = get_pkey(pfx)
